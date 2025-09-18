@@ -49,9 +49,6 @@ bash launch.sh
 \
 You can either launch the four mains programs in different terminals.
 
-\
-You can download the full project report in PDF format here:  
-[Project Report PDF](doc/Project_Report.pdf)
 
 
 ## **How to use it:**
