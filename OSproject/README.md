@@ -17,19 +17,6 @@ This project contains several main folders:
 
 ## **Deliverable:**
 
-You can clone the project by typing the command in the terminal:
-
-**Clone with HTTPS:**
-```
-git clone https://gitlab.ecole.ensicaen.fr/dubuisson/OSproject.git
-```
-**Clone with SSH:**
-```
-git clone git@gitlab.ecole.ensicaen.fr:dubuisson/OSproject.git
-```
-
-\
-You have now cloned the project and can access and build it by typing this command:
 ```
 cd OSproject
 make
@@ -65,11 +52,6 @@ You can either launch the four mains programs in different terminals.
 \
 You can download the full project report in PDF format here:  
 [Project Report PDF](doc/Project_Report.pdf)
-
-For more information you can go on the GitLab Pages:https://osproject-e9dafa.pages.ecole.ensicaen.fr/
-
-If you have any problems, please contact: 
-**valentin.salic@ecole.ensicaen.fr**
 
 
 ## **How to use it:**
