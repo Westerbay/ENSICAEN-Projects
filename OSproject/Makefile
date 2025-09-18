@@ -24,10 +24,14 @@ OBJFILES_TESTUTIL = $(patsubst src/%.c, obj/%.o, $(SRCFILES_TESTUTIL))
 .PHONY : all clean distclean exec test cleantest interface cleandev doc cleandoc
 
 
-all : cleandev exec test venv interface
+all : check-gnuplot cleandev exec test venv interface
 
 exec : lib/libsharedutils.a bin/timer bin/citizen_manager bin/press_agency bin/epidemic_sim  bin/launcher 
 test : bin/test
+
+check-gnuplot:
+	@command -v gnuplot >/dev/null 2>&1 || \
+	 (echo "Error: gnuplot is not installed. Install with 'apt install gnuplot' or 'brew install gnuplot'"; exit 1)
 
 cleandev:
 	@rm -rf /dev/shm/os_project_memory
