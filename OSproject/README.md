@@ -4,7 +4,7 @@
 
 The aim of the project is to create an application that simulates the spread of a viral contamination in a city, as well as the fight against this contamination by some of its citizens, in order to put into practice the knowledge acquired in class.
 
-The majority of the project was developed in C, with the exception of the graphics part, which was developed in Python. No libraries need to be installed beforehand.
+The majority of the project was developed in C, with the exception of the graphics part, which was developed in Python. You will need Gnuplot.
 
 This project contains several main folders:
 
