@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Wester - Academic Projects</title>
+		<title>Wester - OSProject</title>
 		<meta charset="UTF-8">		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="https://westerbay.github.io/Home-Page/script/skull.js"></script>		
 		<link href='https://westerbay.github.io/Home-Page/style/skull.css' rel='stylesheet'>
 		<link href='https://westerbay.github.io/Home-Page/style/header.css' rel='stylesheet'>
-        <link href='https://westerbay.github.io/Home-Page/style/project.css' rel='stylesheet'>
 		<link href='https://westerbay.github.io/Home-Page/style/footer.css' rel='stylesheet'>
 		<link rel="icon" href="https://westerbay.github.io/Home-Page/img/icon.png">
 
@@ -15,16 +14,27 @@
 	</head>
 	<body>
 		<main>
-            <h2>Academic</h2>
-            
-            <a href="OSproject/index.html"><section>
-                <figure>
-                    <img src="OSproject/img/city.png" alt="">
-                </figure>
-                <h3>Operating System</h3>
-                <p>An academic UNIX project written in C and python that simulates the spread of a viral contamination in a city.</p>
-            </section></a>
+			<aside>				
+				<section>
+					<h2>Academic Project - Operating System</h2>
+					<p>The aim of this academic project was to create an application that simulates the spread of a viral contamination in a city, as well as the fight against this contamination by some of its citizens, in order to put into practice the knowledge on threads and shared memory in UNIX.</p>
+					<p>The majority of the project was developed in C, with the exception of the graphics part, which was developed in Python using pygame. All city and citizens data such as contamination rate are stocked in the shared memory and the citizens are represented as threads along the simulation.</p>
+					<img id="icon" src="img/citizen/icon.png" alt="icon">
+					<img src="img/legend.png" alt="legend">
+				</section>
+				<img src="img/city_interface.png" alt="city_interface">
+			</aside>	
+			<div class="explore">
+				<img src="img/press_agency_news.png" alt="real_time_news">
+				<section>					
+					<h2>Description</h2>
+					<p>The simulation introduces several roles within the city: firefighters, doctors, and journalists. Firefighters are responsible for disinfecting contaminated areas, doctors provide care for infected citizens, and journalists gather information about the ongoing situation to inform the press agency of the city.</p>
+					<p>During the simulation, two perspectives are available. The press agency displays the information that journalists have managed to collect, while the real-time news reflects the actual state of the city. This contrast highlights the delay and partiality of information flow compared to the real evolution of the epidemic.</p>
+					<img src="img/global_interface.png" alt="global_interface">
+				</section>				
+			</div>		
         </main>
+		<script src="script.js"></script>
 		<script>load("Project");</script>
 	</body>
 </html>
